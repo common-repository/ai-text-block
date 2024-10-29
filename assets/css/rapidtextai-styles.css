@@ -1,0 +1,98 @@
+/* RapidTextAI Form Styles */
+
+#articleForm {
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+#articleForm .mb-3 {
+    margin-bottom: 20px;
+}
+
+#articleForm label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+#articleForm input[type="text"],
+#articleForm input[type="number"],
+#articleForm select,
+#articleForm textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+}
+
+#articleForm input[type="text"]:focus,
+#articleForm input[type="number"]:focus,
+#articleForm select:focus,
+#articleForm textarea:focus {
+    border-color: #007cba;
+    outline: none;
+}
+
+#articleForm a#showAdvancedOptions {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007cba;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#articleForm a#showAdvancedOptions:hover {
+    text-decoration: underline;
+}
+
+#articleForm .btn-primary {
+    background-color: #007cba;
+    border-color: #006ba1;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#articleForm .btn-primary:hover {
+    background-color: #006ba1;
+    border-color: #005885;
+}
+
+#advancedOptions {
+    border-top: 1px solid #e5e5e5;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+#advancedOptions .mb-3 {
+    margin-bottom: 15px;
+}
+
+#articleForm small {
+    color: #777;
+    font-size: 12px;
+}
+
+#articleForm select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="5"><path fill="%23333" d="M0 0l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 10px 5px;
+}
+
+#articleForm textarea {
+    resize: vertical;
+}
+
